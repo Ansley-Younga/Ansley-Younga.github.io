@@ -1,0 +1,35 @@
+body {
+  font-family: "Montserrat";
+}
+/* .navbarElement {
+    position: fixed;
+    top: 0px;
+    background-color: white;
+  } */
+.gallery {
+  padding-top: 1%;
+}
+
+.showImg {
+  position: relative;
+}
+.enlargeIcon {
+  position: absolute;
+  top: 5%;
+  right: 2%;
+  color: white;
+  background-color: #ee8028;
+  /* font-size: 1.5em; */
+}
+.enlargeIcon:hover {
+  background-color: white !important;
+  color: #ee8028 !important;
+}
+.mbEdit {
+  background-color: transparent !important;
+  outline: none !important;
+}
+.modalBtnClose {
+  float: right;
+  background-color: white;
+}

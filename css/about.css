@@ -1,0 +1,69 @@
+body {
+  font-family: "Montserrat";
+}
+
+.overlap {
+  margin-left: -6%;
+  margin-top: 3%;
+}
+
+.overlapimg {
+  box-shadow: -3px 5px 2px 1px rgb(58, 58, 58);
+}
+
+.dbg {
+  background-image: url("images/backdrop.png");
+}
+
+.ayAboutText {
+  box-shadow: -1px 2px 1px grey;
+  background-color: #ee812808;
+}
+
+.AYDSignature {
+  width: 18em;
+  float: right;
+}
+
+@media screen and (max-width: 990px) {
+  .overlap {
+    margin-left: 0px;
+  }
+  .overlapimg {
+    width: 100%;
+    box-shadow: none;
+  }
+  .AYDSignature {
+    width: 15em;
+  }
+}
+
+/* ------------------------ STATISTICS STYLING STARTS HERE ------------------------ */
+.statisticsCont {
+  background-color: #ee8028;
+}
+
+.statisticsRow div {
+  border-right: 1px solid black;
+}
+
+.statisticsRow div:last-child {
+  border: none;
+}
+
+.statisticsRow {
+  background-color: #ee8028;
+  /* height: 100px; */
+  margin-bottom: 10px;
+}
+
+.statisticsRow .mainstat {
+  color: white;
+  margin-top: 20px;
+}
+
+.statisticsRow .stat_tag {
+  color: rgba(255, 255, 255, 0.899);
+  margin-top: -8px;
+}
+/* ------------------------ STATISTICS STYLING ENDS HERE ------------------------ */

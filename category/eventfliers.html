@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- BOOTSTRAP CSS LOCAL -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <!-- FLOATING BUTTON CDN -->
+    <link rel="stylesheet" href="/css/floatingButtons.css" />
+    <!-- MONTSERRAT FONT LINK -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+    <!-- BOOTSTRAP FONT-ICONS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <!-- BOOTSTRAP CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <!-- BOOTSTRAP JS CDN -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+    <!-- FONT AWESOME KIT -->
+    <script
+      src="https://kit.fontawesome.com/67eb77a058.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- JQUERY CDN -->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <!-- FLOATING BUTTONS STYLESHEET -->
+    <link rel="stylesheet" href="/css/floatingButtons.css" />
+    <!-- IMAGE DISPLAY STYLESHEET -->
+    <link rel="stylesheet" href="css/imageDisplay.css" />
+    <title>AY-DESIGNS EVENT FLIERS</title>
+    <style>
+      .toppage {
+        background-image: url("/images/backgroundAbstract.jpg");
+      }
+    </style>
+  </head>
+  <body>
+    <div id="toppage" class="container-fluid toppage"></div>
+
+    <!-- Gallery -->
+    <div class="row gallery">
+      <!-- SECTION 1 STARTS [HOLDING 2 IMAGES IN SECTION] -->
+      <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+        <!-- MODAL PARENT 1 START -->
+        <div class="showImg">
+          <!-- img display overall -->
+          <img
+            src="/images/Hackathon.jpg"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt="Hackathon - by AY-DESIGNS"
+          />
+          <!-- close button config -->
+          <button
+            type="button"
+            class="btn enlargeIcon"
+            data-bs-toggle="modal"
+            data-bs-target="#hackathonModal"
+          >
+            <i class="bi bi-fullscreen"></i>
+          </button>
+          <!-- MODAL START.mp1 -->
+          <div
+            class="modal fade"
+            id="hackathonModal"
+            tabindex="-1"
+            aria-labelledby="hackathonLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+              <div class="modal-content mbEdit">
+                <!-- <div class="modal-header" style="background-color: red">
+                  <h5 class="modal-title" id="hackathonLabel">
+                    Modal title
+                  </h5>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div> -->
+                <div class="modal-body">
+                  <button
+                    type="button"
+                    class="btn-close modalBtnClose"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-12">
+                        <img
+                          src="/images/Hackathon.jpg"
+                          alt="Hackathon - by AY-DESIGNS"
+                          class="img-fluid"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                  <button type="button" class="btn btn-primary">
+                    Save changes
+                  </button>
+                </div> -->
+              </div>
+            </div>
+          </div>
+          <!-- MODAL END.mp1 -->
+        </div>
+        <!-- MODAL PARENT 1 END -->
+
+        <!-- MODAL PARENT 2 START -->
+        <div class="showImg">
+          <!-- img display overall -->
+          <img
+            src="/images/Rumpes E2.jpg"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt="Rem Pearls Modelling - by AY-DESIGNS"
+          />
+          <!-- close button config -->
+          <button
+            type="button"
+            class="btn enlargeIcon"
+            data-bs-toggle="modal"
+            data-bs-target="#RumpesModal"
+          >
+            <i class="bi bi-fullscreen"></i>
+          </button>
+          <!-- MODAL START.mp2 -->
+          <div
+            class="modal fade"
+            id="RumpesModal"
+            tabindex="-1"
+            aria-labelledby="RumpesModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+              <div class="modal-content mbEdit">
+                <div class="modal-body">
+                  <button
+                    type="button"
+                    class="btn-close modalBtnClose"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-12">
+                        <img
+                          src="/images/Rumpes E2.jpg"
+                          class="w-100 shadow-1-strong rounded mb-4"
+                          alt="Rem Pearls Modelling - by AY-DESIGNS"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- MODAL END.mp2 -->
+        </div>
+        <!-- MODAL PARENT 2 ENDS -->
+      </div>
+      <!-- SECTION 1 ENDS -->
+      <!-- -------------------------------------------- -->
+
+      <!-- SECTION 2 STARTS [HOLDING 2 IMAGES IN SECTION] -->
+      <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+        <!-- MODAL PARENT 3 START -->
+        <div class="showImg">
+          <!-- img display overall -->
+          <img
+            src="/images/FaceOfPearls.jpg"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt="Face Of Pearls Event - by AY-DESIGNS"
+          />
+          <!-- close button config -->
+          <button
+            type="button"
+            class="btn enlargeIcon"
+            data-bs-toggle="modal"
+            data-bs-target="#faceOfPearlsModal"
+          >
+            <i class="bi bi-fullscreen"></i>
+          </button>
+          <!-- MODAL START.mp3 -->
+          <div
+            class="modal fade"
+            id="faceOfPearlsModal"
+            tabindex="-1"
+            aria-labelledby="faceOfPearlsLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+              <div class="modal-content mbEdit">
+                <div class="modal-body">
+                  <button
+                    type="button"
+                    class="btn-close modalBtnClose"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-12">
+                        <img
+                          src="/images/FaceOfPearls.jpg"
+                          alt="Face Of Pearls Event - by AY-DESIGNS"
+                          class="img-fluid"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- MODAL END.mp3 -->
+        </div>
+        <!-- MODAL PARENT 3 END -->
+
+        <!-- MODAL PARENT 4 START -->
+        <div class="showImg">
+          <!-- img display overall -->
+          <img
+            src="/images/MagnumVilla.jpg"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt="Pool Party - by AY-DESIGNS"
+          />
+          <!-- close button config -->
+          <button
+            type="button"
+            class="btn enlargeIcon"
+            data-bs-toggle="modal"
+            data-bs-target="#magnumVillaModal"
+          >
+            <i class="bi bi-fullscreen"></i>
+          </button>
+          <!-- MODAL START.mp4 -->
+          <div
+            class="modal fade"
+            id="magnumVillaModal"
+            tabindex="-1"
+            aria-labelledby="magnumVillaLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+              <div class="modal-content mbEdit">
+                <div class="modal-body">
+                  <button
+                    type="button"
+                    class="btn-close modalBtnClose"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-12">
+                        <img
+                          src="/images/MagnumVilla.jpg"
+                          class="w-100 shadow-1-strong rounded mb-4 img-fluid"
+                          alt="Pool Party - by AY-DESIGNS"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- MODAL END.mp4 -->
+        </div>
+        <!-- MODAL PARENT 4 ENDS -->
+      </div>
+      <!-- SECTION 2 ENDS -->
+      <!-- -------------------------------------------- -->
+
+      <!-- SECTION 3 STARTS [HOLDING 2 IMAGES IN SECTION] -->
+      <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+        <!-- MODAL PARENT 5 START -->
+        <div class="showImg">
+          <!-- img display overall -->
+          <img
+            src="/images/Prom Night.jpg"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt="Prom Night - by AY-DESIGNS"
+          />
+          <!-- close button config -->
+          <button
+            type="button"
+            class="btn enlargeIcon"
+            data-bs-toggle="modal"
+            data-bs-target="#promNightModal"
+          >
+            <i class="bi bi-fullscreen"></i>
+          </button>
+          <!-- MODAL START.mp5 -->
+          <div
+            class="modal fade"
+            id="promNightModal"
+            tabindex="-1"
+            aria-labelledby="promNightLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+              <div class="modal-content mbEdit">
+                <div class="modal-body">
+                  <button
+                    type="button"
+                    class="btn-close modalBtnClose"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-12">
+                        <img
+                          src="/images/Prom Night.jpg"
+                          alt="Prom Night - by AY-DESIGNS"
+                          class="img-fluid"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- MODAL END.mp5 -->
+        </div>
+        <!-- MODAL PARENT 5 END -->
+
+        <!-- MODAL PARENT 6 START -->
+        <div class="showImg">
+          <!-- img display overall -->
+          <img
+            src="/images/ModellingAuditionRemPearls.jpg"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt="Rem Pearls Modelling Audtion - by AY-DESIGNS"
+          />
+          <!-- close button config -->
+          <button
+            type="button"
+            class="btn enlargeIcon"
+            data-bs-toggle="modal"
+            data-bs-target="#modellingAuditionModal"
+          >
+            <i class="bi bi-fullscreen"></i>
+          </button>
+          <!-- MODAL START.mp6 -->
+          <div
+            class="modal fade"
+            id="modellingAuditionModal"
+            tabindex="-1"
+            aria-labelledby="modellingAuditionLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+              <div class="modal-content mbEdit">
+                <div class="modal-body">
+                  <button
+                    type="button"
+                    class="btn-close modalBtnClose"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-12">
+                        <img
+                          src="/images/ModellingAuditionRemPearls.jpg"
+                          class="w-100 shadow-1-strong rounded mb-4 img-fluid"
+                          alt="Rem Pearls Modelling Audtion - by AY-DESIGNS"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- MODAL END.mp6 -->
+        </div>
+        <!-- MODAL PARENT 6 ENDS -->
+      </div>
+      <!-- SECTION 3 ENDS -->
+      <!-- -------------------------------------------- -->
+    </div>
+    <!-- Gallery -->
+
+    <div id="footerElement"></div>
+
+    <a href="https://wa.link/rqqli4" class="float">
+      <i class="bi bi-whatsapp whatsappFloat"></i>
+    </a>
+
+    <a href="#toppage" class="float2">
+      <i class="bi bi-arrow-up-circle-fill scrollToTop"></i>
+    </a>
+
+    <script>
+      $(function () {
+        $("#toppage").load("nav.html");
+      });
+
+      $(function () {
+        $("#footerElement").load("foot.html");
+      });
+    </script>
+  </body>
+</html>

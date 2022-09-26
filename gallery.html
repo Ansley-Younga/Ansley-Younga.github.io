@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- BOOTSTRAP CSS LOCAL -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- GALLERY CSS LOCAL -->
+    <link rel="stylesheet" href="css/gallery.css" />
+    <!-- FLOATING BUTTONS CSS LOCAL -->
+    <link rel="stylesheet" href="css/floatingButtons.css" />
+    <!-- MONTSERRAT FONT LINK -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <!-- BOOTSTRAP CSS CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <!-- BOOTSTRAP JS CDN -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+    <!-- FONT AWESOME KIT -->
+    <script
+      src="https://kit.fontawesome.com/67eb77a058.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- JQUERY CDN -->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <title>AY-Designs Gallery</title>
+    
+    <style>
+      .eventsSlide{
+        background-image: url('images/EventBkgAYD.jpg');
+      }
+      .businessSlide{
+        background-image: url('images/BM1.jpg');
+      }
+      .churchSlide{
+        background-image: url('images/ChurchBkgAYD.jpg');
+      }
+      .explore{
+        background-color: #ee8028;
+        color: white;
+      }
+      .catWrow{
+        padding: 8%;
+      }
+
+      @media screen and (max-width:1024px) and (min-width:718px) {
+        .catWrow{
+          /* background-color: red; */
+          margin-top: -18%;
+        }
+        .eventsSlide, .businessSlide, .churchSlide{
+          background-size: cover;
+          width: 100%;
+          height: 500px;
+        }
+        .catWriteUp p {
+           font-size: 20px;
+        }
+
+        .catName {
+          font-size: 15px !important;
+        }
+        
+      }
+
+      @media screen and (max-width: 718px) {
+        .catWrow{
+          /* background-color: red; */
+          margin-top: 8%;
+        }
+        .eventsSlide, .businessSlide, .churchSlide{
+          background-size: cover;
+          width: 100;
+          /* max-width: 200px; */
+          height: 500px;
+        }
+        .catWriteUp p{
+          font-size: 18px;
+        }
+        .catName{
+          font-size: 13px !important;
+        }
+      }
+
+      @media screen and (max-width: 700px) {
+      }
+
+      @media screen and (max-width: 620px) {
+      }
+
+    </style>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <div id="navbarElement"></div>
+
+    <!-- CAROUSEL CONTENT -->
+    <div
+      id="categoriesSlidePack"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <!-- slide 1 -->
+        <div
+          class="carousel-item active eventsSlide" data-bs-interval="10000">
+          <div class="container-fluid">
+            <div class="row catWrow">
+              <div
+                class="col-md-6 catWriteUp"
+              >
+                <p>
+                  Bigger is better as the saying goes. From classical events, to
+                  parties, cooperate, and casual events; let AY-Designs take
+                  care of publicity with a captivating flier design.
+                </p>
+                <p class="pt-3 catName">
+                  <u>CATEGORY: <b>EVENT FLIERS</b></u>
+                </p>
+                <button
+                  class="btn explore">
+                  EXPLORE
+                </button>
+              </div>
+              <div class="col-md-6"></div>
+            </div>
+          </div>
+        </div>
+        <!-- slide 2 -->
+        <div
+          class="carousel-item businessSlide" data-bs-interval="10000">
+        <div class="container-fluid">
+          <div class="row catWrow">
+            <div
+              class="col-md-6 catWriteUp"            >
+              <p>
+                Wheter you're starting up a new business, or advertising product sales,
+                or perhaps requesting for workers; AY-DESIGNS is capable of driving your
+                message towards your target audience!
+              </p>
+              <p class="pt-3 catName">
+                <u>CATEGORY: <b>BUSINESS ADVERTS</b></u>
+              </p>
+              <button
+                class="btn explore">
+                EXPLORE
+              </button>
+            </div>
+            <div class="col-md-6"></div>
+          </div>
+        </di>
+        </div>
+      </div>
+
+      <!-- slide 3 starts -->
+      <div
+      class="carousel-item churchSlide" data-bs-interval="10000">
+    <div class="container-fluid">
+      <div class="row catWrow">
+        <div
+          class="col-md-6 catWriteUp">
+          <p>
+            Flier designs have proven to be a massive tool to gain attraction to
+            church inclined programs. Keep the trend going. Let AY-DESIGNS handle your
+            church flier designs.
+          </p>
+          <p class="pt-3 catName">
+            <u>CATEGORY: <b>CHURCH DESIGNS</b></u>
+          </p>
+          <button
+            class="btn explore">
+            EXPLORE
+          </button>
+        </div>
+        <div class="col-md-6"></div>
+      </div>
+    </div>
+    </div>
+    <!-- slide 3 end -->
+    
+    <!-- <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="TS" />
+    </div> -->
+    <!-- carousel button controls start -->
+  </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#categoriesSlidePack"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#categoriesSlidePack"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- carousel button controls end -->
+
+    <!-- FOOTER AND FLOAT -->
+    <div id="footerElement"></div>
+
+    <a href="https://wa.link/rqqli4" class="float">
+      <i class="bi bi-whatsapp whatsappFloat"></i>
+    </a>
+
+    <a href="#opener" class="float2">
+      <i class="bi bi-arrow-up-circle-fill scrollToTop"></i>
+    </a>
+
+    <script>
+      $(function () {
+        $("#navbarElement").load("nav.html");
+      });
+
+      $(function () {
+        $("#footerElement").load("foot.html");
+      });
+    </script>
+  </body>
+</html>

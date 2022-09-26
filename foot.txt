@@ -1,0 +1,61 @@
+<style>
+  .callToWork {
+    background-image: url("images/AYDworkx.png");
+    min-height: 850px;
+    padding: 100px;
+    position: relative;
+  }
+
+  @media screen and (max-width: 1250px) {
+    .callToWork {
+      background-image: url("images/AYDworkx.png");
+      background-size: cover;
+      min-height: 30px;
+      /* padding: none; */
+    }
+  }
+
+  @media screen and (max-width: 620px) {
+    .callToWork {
+      background-image: url("images/AYDworkx.png");
+      background-size: cover;
+      min-height: 30px;
+      /* padding: none; */
+    }
+  }
+
+  .bfam {
+    color: white;
+    position: relative;
+    /* parent div position is set to relative so this would work */
+    top: 55%;
+    /* left: 44%; */
+    text-align: center;
+  }
+
+  .workWS {
+    background-color: #ee8028;
+    /* border-radius: 20%; */
+    color: white;
+    /* border: none; */
+  }
+
+  .workWS:hover {
+    /* background-color: white !important; */
+    color: white !important;
+    border: none !important;
+    border-bottom: 3px solid #ee8028 !important;
+  }
+</style>
+
+<div class="container-fluid callToWork">
+  <div class="row">
+    <div class="col-12 text-center">
+      <img src="images/NeedADesign.png" alt="" class="img-fluid aydworkx" />
+      <!-- <h1 style="color: white" class="text-center">Let's Work Something Out!!!</h1> -->
+      <br />
+      <button class="btn btn-md workWS">WORK WITH US</button>
+      <p class="bfam">A BFAM INITIATIVE</p>
+    </div>
+  </div>
+</div>

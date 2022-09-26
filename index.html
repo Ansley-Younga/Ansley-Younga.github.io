@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- BOOTSTRAP CSS LOCAL -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- FLOATING BUTTON CDN -->
+    <link rel="stylesheet" href="css/floatingButtons.css">
+    <!-- MONTSERRAT FONT LINK -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+    <!-- BOOTSTRAP FONT-ICONS CND -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <!-- BOOTSTRAP CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <!-- BOOTSTRAP JS CDN -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+    <!-- FONT AWESOME KIT -->
+    <script
+      src="https://kit.fontawesome.com/67eb77a058.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- JQUERY CDN -->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <!-- INDEX CSS STYLESHEET -->
+    <link rel="stylesheet" href="css/index.css">
+    <!-- GALLERY CSS STYLESHEET -->
+    <link rel="stylesheet" href="css/gallery.css">
+    <title>AY-DESIGNS</title>
+    <style>
+      .headSec{
+        /* background-image: url("images/backgroundAbstract.jpg"); */
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.746), rgba(23, 23, 23, 0.564)),
+      url("images/AYDworkx.jpg");
+        background-size: cover;
+        /* background-repeat: no-repeat; */
+      }
+      .mainContainer {
+      /* background-color: rgb(243, 243, 243); */
+      /* background-image: url("images/backgroundAbstract.jpg"); */
+      /* background-repeat: no-repeat; */
+      /* background-size: cover; */
+      min-height: 500px;
+      padding: 100px;
+    }
+
+    .eventsSlide{
+        background-image: url('images/EventBkgAYD.jpg');
+      }
+      .businessSlide{
+        background-image: url('images/BM1.jpg');
+      }
+      .churchSlide{
+        background-image: url('images/ChurchBkgAYD.jpg');
+      }
+      .explore{
+        background-color: #ee8028;
+        color: white;
+      }
+      .explore:hover{
+        background-color: transparent;
+        color: white !important;
+      }
+      .catWrow{
+        padding: 8%;
+      }
+
+      @media screen and (max-width:1024px) and (min-width:718px) {
+        .catWrow{
+          /* background-color: red; */
+          margin-top: -18%;
+        }
+        .eventsSlide, .businessSlide, .churchSlide{
+          background-size: cover;
+          width: 100%;
+          height: 500px;
+        }
+        .catWriteUp p {
+           font-size: 20px;
+        }
+
+        .catName {
+          font-size: 15px !important;
+        }
+        
+      }
+
+      @media screen and (max-width: 718px) {
+        .catWrow{
+          /* background-color: red; */
+          margin-top: 8%;
+        }
+        .eventsSlide, .businessSlide, .churchSlide{
+          background-size: cover;
+          width: 100;
+          /* max-width: 200px; */
+          height: 500px;
+        }
+        .catWriteUp p{
+          font-size: 18px;
+        }
+        .catName{
+          font-size: 13px !important;
+        }
+      }
+
+      @media screen and (max-width: 700px) {
+      }
+
+      @media screen and (max-width: 620px) {
+        .eventsSlide{
+          background-image: url("images/EventBkgAYD_mobile.jpg");
+        }
+        .businessSlide{
+          background-image: url("images/BM1_mobile.jpg");
+        }
+        .churchSlide{
+          background-image: url("images/ChurchBkgAYD_mobile.jpg");
+        }
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="headSec">
+      <div id="navbarElement"></div>
+    <div class="container-fluid mainContainer" id="opener">
+      <div class="row headRow">
+        <div class="col-lg-6 text-center">
+          <img src="images/breathePC.jpg" alt="" class="breathePC" />
+        </div>
+        <div class="col-lg-6 textarea">
+          <div class="col-lg-12"><h6 class="text-white">CREATIVITY LIVES HERE</h6></div>
+          <div class="col-12">
+            <h1 style="color: #ee8028;">
+              <b><span style="color: white;">AY-</span>DESIGNS</b>
+            </h1>
+          </div>
+          <div class="col-12">
+            <h3 class="text-white"><b>Achieving More With Less.</b></h3>
+            <button class="btn discover">DISCOVER</button>
+          </div>
+          <div class="col-2"></div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <div class="container-fluid secondaryContainer">
+      <div class="row">
+        <div class="col-lg-6">
+          <h4>
+            <b><u>Creative Solutions For All Brands</u></b>
+          </h4>
+          <p>
+            The tagline "Achieving More With Less" generally is used to portray
+            exactly how AY-DESIGNS uses techniques and skills to produce
+            excellent and comprehensive results.
+          </p>
+          <p>
+            Having the privilege to work with clients and brands over the years
+            since 2019, AY-DESIGNS is on a growing rampage, not only with its
+            client-base, but also (most especially) with increase in
+            productivity.
+          </p>
+          <br />
+          <b>Client Base</b>: 45+
+          <div class="progress mb-2">
+            <div
+              class="progress-bar"
+              role="progressbar"
+              aria-valuenow="20"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              style="width: 50%; background-color: #ee8028"
+            >
+              <span class="sr-only text-start" style="padding: 8px">45+</span>
+            </div>
+          </div>
+          <b>Delivery Speed</b>: 80%
+          <div class="progress mb-2">
+            <div
+              class="progress-bar"
+              role="progressbar"
+              aria-valuenow="20"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              style="width: 80%; background-color: #ee8028"
+            >
+              <span class="sr-only text-start" style="padding: 8px">80%</span>
+            </div>
+          </div>
+          <b>Satisfaction Levels</b>: 90%
+          <div class="progress mb-2">
+            <div
+              class="progress-bar"
+              role="progressbar"
+              aria-valuenow="20"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              style="width: 90%; background-color: #ee8028"
+            >
+              <span class="sr-only text-start" style="padding: 8px;">90%</span>
+            </div>
+          </div>
+          <a href="about.html"><button class="btn creativeSolutions">LEARN MORE</button></a>
+          <a href="contact.html"><button class="btn creativeSolutions">WORK WITH US</button></a>
+        </div>
+        <div class="col-lg-6">
+          <img src="images/creativeSolutionsAYDesigns.jpg" alt="" class="img-fluid" />
+        </div>
+      </div>
+    </div>
+    
+    <!-- CAROUSEL CONTENT -->
+    <div
+      id="categoriesSlidePack"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <!-- slide 1 -->
+        <div
+          class="carousel-item active eventsSlide" data-bs-interval="10000">
+          <div class="container-fluid">
+            <div class="row catWrow">
+              <div
+                class="col-md-6 catWriteUp"
+              >
+                <p>
+                  Bigger is better as the saying goes. From classical events, to
+                  parties, cooperate, and casual events; let AY-Designs take
+                  care of publicity with a captivating flier design.
+                </p>
+                <p class="pt-3 catName">
+                  <u>CATEGORY: <b>EVENT FLIERS</b></u>
+                </p>
+                <a href="category/eventfliers.html">
+                  <button
+                  class="btn discover">
+                  EXPLORE
+                </button>
+                </a>
+              </div>
+              <div class="col-md-6"></div>
+            </div>
+          </div>
+        </div>
+        <!-- slide 2 -->
+        <div
+          class="carousel-item businessSlide" data-bs-interval="10000">
+        <div class="container-fluid">
+          <div class="row catWrow">
+            <div
+              class="col-md-6 catWriteUp"            >
+              <p>
+                Wheter you're starting up a new business, or advertising product sales,
+                or perhaps requesting for workers; AY-DESIGNS is capable of driving your
+                message towards your target audience!
+              </p>
+              <p class="pt-3 catName">
+                <u>CATEGORY: <b>BUSINESS ADVERTS</b></u>
+              </p>
+              <a href="category/businessadverts.html">
+                <button
+                class="btn discover">
+                EXPLORE
+              </button>
+              </a>
+            </div>
+            <div class="col-md-6"></div>
+          </div>
+        </di>
+        </div>
+      </div>
+
+      <!-- slide 3 starts -->
+      <div
+      class="carousel-item churchSlide" data-bs-interval="10000">
+    <div class="container-fluid">
+      <div class="row catWrow">
+        <div
+          class="col-md-6 catWriteUp">
+          <p>
+            Flyer designs have proven to be a massive tool to gain attraction to
+            church inclined programs. Keep the trend going. Let AY-DESIGNS handle your
+            church flier designs.
+          </p>
+          <p class="pt-3 catName">
+            <u>CATEGORY: <b>CHURCH DESIGNS</b></u>
+          </p>
+          <a href="category/churchdesigns.html">
+            <button
+            class="btn discover">
+            EXPLORE
+          </button>
+          </a>
+        </div>
+        <div class="col-md-6"></div>
+      </div>
+    </div>
+    </div>
+    <!-- slide 3 end -->
+    
+    <!-- <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="TS" />
+    </div> -->
+    <!-- carousel button controls start -->
+  </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#categoriesSlidePack"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#categoriesSlidePack"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- carousel button controls end -->
+
+    <!-- JS CATEGORIES DESIGN SHOW start -->
+    <div class="container-fluid" style="background-color: rgb(243, 243, 243)">
+      <h2 class="text-center pt-4">
+        <u>Experience An Outburst of Creativity With Us!</u>
+      </h2>
+      <div
+        class="row pb-3 pt-3 mb-3 text-center minicat"
+        style="background-color: white"
+      >
+        <div class="col-3">
+          <button id="church" class="btn">CHURCH</button>
+        </div>
+
+        <div class="col-3">
+          <button id="events" class="btn">EVENTS</button>
+        </div>
+
+        <div class="col-3">
+          <button id="business" class="btn">BUSINESS</button>
+        </div>
+
+        <div class="col-3">
+          <button id="birthday" class="btn">BIRTHDAY</button>
+        </div>
+      </div>
+      <div class="text-center pb-5" id="categories">
+        <img src="images/AY DESIGNS LOGO.png" alt="" class="img-fluid" />
+      </div>
+    </div>
+    </div>
+
+    <div id="footerElement"></div>
+
+    <a href="https://wa.link/rqqli4" class="float">
+      <i class="bi bi-whatsapp whatsappFloat"></i>
+    </a>
+
+    <a href="#opener" class="float2">
+      <i class="bi bi-arrow-up-circle-fill scrollToTop"></i>
+    </a>
+
+    <script>
+      document.getElementById("church").addEventListener("click", church);
+
+      function church() {
+        document.getElementById("categories").innerHTML = `
+        <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="images/HealingStreams.jpg" alt="" class="img-fluid pb-1" 
+            style="width:100%; border-radius:20px"
+            />
+          </div>
+          <div class="col-lg-4">
+            <img
+              src="images/Wednesday Service - August.jpg"
+              alt=""
+              class="img-fluid pb-1"
+              style="width:100%; border-radius:20px"
+            />
+          </div>
+          <div class="col-lg-4">
+            <img
+              src="images/PRAYER FOR KINGDOM ADVANCEMENT.jpg"
+              alt=""
+              class="img-fluid"
+              style="width:100%; border-radius:20px"
+            />
+          </div>
+        </div>
+      </div>
+        `;
+      }
+      // break..........break..............break.................
+      document.getElementById("events").addEventListener("click", events);
+
+      function events() {
+        document.getElementById("categories").innerHTML = `
+        <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="images/MagnumVilla.jpg" alt="" class="img-fluid pb-1" 
+            style="width:100%; border-radius:20px"
+            />
+          </div>
+          <div class="col-lg-4">
+            <img
+              src="images/Rumpes E2.jpg"
+              alt=""
+              class="img-fluid pb-1"
+              style="width:100%; border-radius:20px"
+            />
+          </div>
+          <div class="col-lg-4">
+            <img
+              src="images/Prom Night.jpg"
+              alt=""
+              class="img-fluid"
+              style="width:100%; border-radius:20px"
+            />
+          </div>
+        </div>
+      </div>
+        `;
+      }
+      // break..........break..............break.................
+      document.getElementById("business").addEventListener("click", business);
+
+      function business() {
+        document.getElementById("categories").innerHTML = `
+        <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="images/WE ARE HIRING.jpg" alt="" class="img-fluid pb-1"
+            style="width:100%; border-radius:20px"/>
+          </div>
+          <div class="col-lg-4">
+            <img
+              src="images/Dr. House.jpg"
+              alt=""
+              class="img-fluid pb-1"
+              style="width:100%; border-radius:20px"
+            />
+          </div>
+          <div class="col-lg-4">
+            <img
+              src="images/COACH OBI'S GYM FLYER.jpg"
+              alt=""
+              class="img-fluid"
+              style="width:100%; border-radius:20px"
+            />
+          </div>
+        </div>
+      </div>
+        `;
+      }
+      // break..........break..............break.................
+      document.getElementById("birthday").addEventListener("click", birthday);
+
+      function birthday() {
+        document.getElementById("categories").innerHTML = `
+        <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="images/HBD_KelydianneAYDesigns.jpeg" 
+            alt="HBD Kelydianne - by AY-Designs" 
+            class="img-fluid pb-1" style="border-radius:20px;"/>
+          </div>
+          <div class="col-lg-4">
+            <img
+            src="images/Ansley.jpg"
+              alt="HBD Ansley - by AY-Designs"
+              class="img-fluid pb-1"
+              style="border-radius:20px;"
+            />
+          </div>
+          <div class="col-lg-4">
+            <img
+              src="images/Lionel.jpg"
+              alt="HBD Lionel - by AY-Designs"
+              class="img-fluid"
+              style="border-radius:20px;"
+            />
+          </div>
+        </div>
+      </div>
+        `;
+      }
+
+      $(function () {
+        $("#navbarElement").load("nav.html");
+      });
+
+      $(function () {
+        $("#footerElement").load("foot.html");
+      });
+    </script>
+  </body>
+</html>

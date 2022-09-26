@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- BOOTSTRAP CSS LOCAL -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- PROJECT CSS LOCAL -->
+    <link rel="stylesheet" href="css/project.css" />
+    <!-- FLOATING BUTTONS CSS LOCAL -->
+    <link rel="stylesheet" href="css/floatingButtons.css" />
+    <!-- MONTSERRAT FONT LINK -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <!-- BOOTSTRAP CSS CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <!-- BOOTSTRAP JS CDN -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+    <!-- FONT AWESOME KIT -->
+    <script
+      src="https://kit.fontawesome.com/67eb77a058.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- JQUERY CDN -->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <title>AY-Designs Projects</title>
+
+    <style>
+      .hed {
+        background-image: url("/images/backgroundAbstract.jpg");
+      }
+      .mainContentCont {
+        /* background-color: red; */
+        background-image: url("images/LearnBkg.jpg");
+        background-size: cover;
+        border-radius: 10px;
+        margin-top: -5em;
+        padding-bottom: 10px;
+        color: white;
+      }
+      .carousel-item img {
+        border-radius: 10px;
+        border-right: 3px solid white;
+        border-bottom: 3px solid white;
+      }
+      .getStarted {
+        border-bottom: 2px solid #ee8028;
+      }
+      .getStarted:hover {
+        background-color: #ee8028 !important;
+        color: white !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="hed">
+      <!-- NAVBAR -->
+      <div id="toppage" class="toppage"></div>
+
+      <!-- HEADING -->
+      <div class="container mb-4">
+        <div class="row">
+          <div class="col text-center mb-5 pb-5">
+            <h4><u>Become A Graphic Designer</u></h4>
+            Graphic designing today is a <b>HIGH INCOME SKILL </b>, and is
+            proven to be very essential once learned. <br />
+            AY-DESIGNS is looking to raise more breeds of graphic designers as
+            time flies by. Join the movement and become a graphic designer
+            today! <br />
+            <a href="https://wa.link/ed1ytb">
+              <button class="btn getStarted mt-3">GET STARTED</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mainContentCont">
+      <div class="row mainContentRow">
+        <div class="col-sm-6">
+          <!-- <p>
+            AY-DESIGNS has organised sessions of graphic design training programs
+            which have yielded exceeding results so far. The major motivation of this
+            initiative is to be able to teach others the skill of graphic designing.
+            <br> <h4>Of Course, we rise by lifting others</h4>
+          </p> -->
+        </div>
+        <div class="col-sm-6">
+          <!-- CAROUSEL S-->
+          <div
+            id="carouselExampleControls"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="images/learn1.jpg"
+                  class="d-block w-100 img-fluid"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img src="images/learn2.jpg" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="images/learn3.jpg" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="images/learn4.jpg" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="images/learn5.jpg" class="d-block w-100" alt="..." />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <!-- CAROUSEL E-->
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER AND FLOAT -->
+    <div id="footerElement"></div>
+
+    <a href="https://wa.link/rqqli4" class="float">
+      <i class="bi bi-whatsapp whatsappFloat"></i>
+    </a>
+
+    <a href="#toppage" class="float2">
+      <i class="bi bi-arrow-up-circle-fill scrollToTop"></i>
+    </a>
+
+    <script>
+      $(function () {
+        $("#toppage").load("navwhite.html");
+      });
+
+      $(function () {
+        $("#footerElement").load("foot.html");
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,132 @@
+body {
+  font-family: "Montserrat";
+}
+
+.breathePC {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 50%;
+  border: 15px solid white;
+}
+
+@media screen and (max-width: 620px) {
+  .breathePC {
+    border: 10px solid white;
+  }
+}
+
+.discover {
+  background-color: #ee8028;
+  color: white;
+}
+
+.discover:hover {
+  background-color: none !important;
+  border: none !important;
+  border-bottom: 2px solid #ee8028 !important;
+  color: white !important;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+.headRow h1 {
+  font-size: 80px;
+  /* font-weight: bolder; */
+}
+
+.textarea {
+  padding-top: 80px;
+}
+
+@media screen and (max-width: 718px) {
+  .headRow h1 {
+    font-size: 70px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .headRow h1 {
+    font-size: 60px;
+  }
+  .textarea {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .headRow h1 {
+    font-size: 30px;
+  }
+  .headRow h3 {
+    font-size: 14px;
+  }
+  .headRow h6 {
+    font-size: 13px;
+  }
+  .textarea {
+    text-align: center;
+  }
+}
+
+.secondaryContainer {
+  padding-top: 70px;
+  padding-bottom: 20px;
+}
+
+.creativeSolutions {
+  margin-bottom: 10px;
+  background-color: #ee8028;
+  color: white;
+}
+
+.creativeSolutions:hover {
+  /* background-color: #a85b1b; */
+  /* border: 2px solid #ee8028; */
+  color: black !important;
+  font-size: 15px;
+  border: none;
+  border-bottom: 2px solid #ee8028 !important;
+}
+
+.minicat button {
+  border: none;
+  background-color: #ee8028;
+  color: white;
+}
+
+.minicat button:hover {
+  color: black !important;
+  border: none !important;
+  border-bottom: 2px solid #ee8028 !important;
+  text-decoration: none !important;
+}
+
+@media screen and (max-width: 700px) {
+  .minicat button {
+    font-size: 10px;
+  }
+}
+
+/* .whatsappFloat:link {
+    color: white;
+    text-decoration: none;
+  }
+  .whatsappFloat:visited {
+    color: white;
+    text-decoration: none;
+  }
+  .whatsappFloat:hover {
+    color: white;
+    text-decoration: none;
+  }
+  .whatsappFloat:active {
+    color: white;
+    text-decoration: none;
+  } */
+
+/* #navbarSupportedContent li {
+    border-right: 2px solid white;
+  } */

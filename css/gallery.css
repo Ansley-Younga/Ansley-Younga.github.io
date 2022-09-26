@@ -1,0 +1,22 @@
+.eventsSlide,
+.businessSlide,
+.churchSlide {
+  width: 100;
+  height: 1080px;
+}
+
+.catWriteUp {
+  color: white;
+  border: none;
+  border-left: 1px solid white;
+  margin-top: 18% !important;
+  margin-left: 5%;
+}
+
+.catWriteUp p {
+  font-size: 30px;
+}
+
+.catName {
+  font-size: 17px !important;
+}
